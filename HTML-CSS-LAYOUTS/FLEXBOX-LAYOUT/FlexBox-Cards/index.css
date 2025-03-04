@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+  }
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  .card {
+    flex: 0 0 calc(33.33% - 60px); /* 3 cards per row with margin */
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.3); 
+
+  }
+  .card img {
+    max-width: 100%;
+    height: 100px;
+    height: auto;
+  }
+  .card .text {
+    padding: 20px;
+  }
+  .card .text > button {
+    background: gray;
+    border: 0;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+  }
